@@ -1,0 +1,17 @@
+{
+  "validUser": {
+    "username": "Admin",
+    "password": "admin123",
+    "expected": "dashboard"
+  },
+  "invalidUser": {
+    "username": "Adnmin",
+    "password": "admin1g23",
+    "expected": "dashboard"
+  },
+  "EmpUser": {
+    "username": "Orange001",
+    "password": "Orange@001",
+    "expected": "Orange@001"
+  }
+}
